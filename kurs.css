@@ -19,7 +19,6 @@ body {
  }
  [class*="col-"] {
     width: 100%;
-    
     padding: 12px; 
 	float:left;
 }
@@ -101,7 +100,7 @@ header>nav>ul>li>a:focus {
 }
 
 .hero {
-   	background-image: url(https://zapodaj.net/images/5b0aa4e01b5e0.jpg);
+   	background-image: url(https://zapodaj.net/images/21f754ef815be.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -134,7 +133,8 @@ header>nav>ul>li>a:focus {
     transition-duration: 0.3s;
 }
 .slogan h1 {
-	font-size: 40px;
+	font-size: 40px; 
+	
     font-weight: 700;
 	margin: 0;
 	color: white;
@@ -381,7 +381,7 @@ footer a {
 }
 .info {
     color: white;
-    background: #565555;
+    background: #12213f;
 	display: block;
 	min-height: 57px;
 }
@@ -512,6 +512,15 @@ input[type="submit"] {
 		width:  100%;
 		height: auto;
 	}
+	.hidden-class {
+		display: none;
+	}
+	.col-center {
+		text-align: center;
+		width: 33%;
+		margin: 0 auto;
+		float: none;
+	}
 	
 }
 @media (max-width: 460px) {
@@ -519,7 +528,19 @@ input[type="submit"] {
 		width:  100%;
 		height: auto;
 	}
-	.slogan-txt p {
-    font-size: 14px;
+	.slogan h1 {
+		font-size: 36px;
+		font-weight: 700;
+		margin: 0;
+		color: white;
+		text-align: center;
+		padding-top: 250px;
+		text-shadow: 2px 2px #000;
 	}
+	
+	.slogan-txt p {
+		font-size: 14px;
+	}
+	
+	
 }
