@@ -376,7 +376,7 @@ footer a {
 }
 .info p {
 	margin-left: 20px;
-	float: right;
+	display: inline-block;
 	padding-right: 10px;
 	
 }
@@ -386,18 +386,13 @@ footer a {
 	display: block;
 	min-height: 57px;
 	opacity: .8;
-	min-height:50px;
 }
-.pp {
-	min-height: 50px;
-}
-
 .info button {
 	font-weight: 100;
 	color: #fff;
     background-color: #ff6c3a;
     border-radius: 3px;
-    float: right;
+    display: inline-block;
     text-decoration: none;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
@@ -406,6 +401,7 @@ footer a {
 	margin-top: 13px;
 	margin-right: 20px;
 	
+    margin-bottom: 9px;
 	
 }
 .form-control {
