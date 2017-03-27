@@ -57,19 +57,24 @@ header>nav>ul {
 	list-style-type: none;
 	float: left;
 	padding: 7px 10px;
-	
+	font-size: 0;
 }
 header > nav ul > li {
   display:inline-block;
+  font-size: 0; 
 }
 nav:after {
     clear: both;
     content: "";
     display: block;
 }
+header>nav>a {
+	float: left;
+	
+}
 header>nav>a>img {
 	padding: 10px 0;
-	float: left;
+	
 }
 header>nav>ul>li>a {
 	line-height: 50px;
@@ -90,7 +95,6 @@ header img:hover{
 }
 header>nav>ul>li>a:hover {
 	color: rgba(0,0,0,.7);
-	font-size: 18px;
 	-webkit-transition-duration: 0.2s; /* Safari */
     transition-duration: 0.2s;
 }
@@ -124,8 +128,7 @@ header>nav>ul>li>a:focus {
 .shadow1{
 	text-shadow: 2px 2px #000;
 }
-.strefa_kodera a:hover{
-	font-size: 15px;
+.strefa_kodera a:hover {
 	background: #0275d8;
 	color: white;
 	border-radius: 5px;
@@ -438,7 +441,7 @@ input[type="submit"] {
 	header {
 		height: auto;
 	}
-	header>nav>a>img {
+	header>nav>a{
 		float: none;	
 		display: block;
 		margin: 0 auto;
@@ -525,10 +528,47 @@ input[type="submit"] {
 		margin: 0 auto;
 		float: none;
 	}
-	
+	.col-4.social p {
+		    margin: 0;
+	}
+	.col-4.social h3 {
+		text-align: left;
+		margin-right: 10%;
+	}
+	.programmer2 h3,
+	.programmer h3
+	{
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+	.course-choice h3,p {
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+	.slogan-txt p {
+		font-size: 14px;
+	}
+	.footer .col-4.social {
+		text-align: left;
+	}
+	footer ul {
+		
+		text-align: left;
+	}
+	.courses-modul h3 {
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: center;
+	}
+	.courses-modul p {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
 }
 @media (max-width: 460px) {
-	.strefa2 img {
+	.strefa2 img { 
 		width:  100%;
 		height: auto;
 	}
@@ -541,10 +581,7 @@ input[type="submit"] {
 		padding-top: 250px;
 		text-shadow: 2px 2px #000;
 	}
-	
-	.slogan-txt p {
-		font-size: 14px;
-	}
+
 	
 	
 }
