@@ -257,6 +257,9 @@ footer ul {
 footer a {
 	color: rgb(255, 108, 58);
 }
+.fa:hover {
+	color: red;
+}
 .programmer {
 	padding-top: 50px;
     padding-bottom: 50px;
@@ -309,7 +312,7 @@ footer a {
 	display: inline-block;
 }
 .wrapper {
-	background-image: url('https://zapodaj.net/images/742b8afaf4583.png');
+	background-image: url('img/gray.png');
     background-repeat: no-repeat;
     background-position: center; 
 	height: 100%;
